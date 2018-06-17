@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title> 도현준의 생일카드 </title>
+
+    <style>
+ *{box-sizing: border-box;}
+
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+ [class*=col-]{
+  float: left;padding:0px;border:0px solid aqua;
+ }
+ .row{ }
+   div{
+      position: relative;
+      animation-name: dhj;
+      animation-duration: 20s;
+   }
+  div.container{width:1000px;margin-right: auto;margin-left:auto;}
+
+  .head1{border: 10px solid black; text-align: center;margin-bottom: 0px;width: 100%;box-sizing: border-box; background-color: aqua;}
+
+  h1{
+   color: yellow;
+  }
+@-webkit-keyframes dhj {
+    0%   {background-color: blue;}
+    25%  {background-color: yellow;}
+    50%  {background-color: red;}
+    100% {background-color: lightblue;}
+}
+
+
+@keyframes dhj {
+    0%   {background-color: purple;}
+  
+    50% {background-color: lightblue;}
+}
+
+
+    body{background-image: linear-gradient(#336688,#cc0000);} 
+    h1{width: 200%; font-size: 40px; color: lightblue;}
+    p{font-size: 50px; color: lightyellow;}
+    div{font-size: 20px; color: white;  border-width:5px;
+    border-style:groove;
+    border-color:#000;
+    border-radius:20px;}
+    img{width: 970px;}
+
+
+    </style>   
+    <body>
+        <div class="container">
+            
+            <div class="section section1" id="section1">
+                <div class="inner">
+                    <h2 class="tit_main"><img src="33333.jpg" alt="Do Hyeon Joon Birthday"></h2>
+                   
+                    <p class="blind">WELCOME!!</br>★Birthday Party: 2018.10.20★</p>
+                </div>
+              
+                <div class="timeline_wrap">
+                    <span class="charac"><img src="66666.jpg" alt=""></span>
+                </div>       
+                    <div class="blind">
+                        <h1><em>@@20살 파티@@</em></h1>
+                        <h2>-2018.10.20 도현준 군대가기</br> 1년전~~  </h2></br>
+                        <h2>-유의사항: 선물사오기!! </h2></br>
+                        <h2>-PM 7:00~ PM 11:59</h2>
+                        </div> 
+
+                        <script type="text/javascript">
+        function printHello()
+        {
+            var p="";
+
+            for (var i = 0; i < 100; i++) {
+        p=p+"Suman,Thank you for teaching me all this time♥" + "<br/>";
+        }
+        document.getElementById("para1").innerHTML=p;
+            }
+
+    </script>
+    <p id="para1"> </p>
+    <button onclick="printHello()"> Click</button>
+                   
+</head>
+</html>
